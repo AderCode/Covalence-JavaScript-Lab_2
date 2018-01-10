@@ -19,9 +19,9 @@ function displayPosition(companyName, jobTitle, jobDescription) {
 
 function displaySkill(skillName, isCool) {
     if (isCool === true) {
-        console.log("* " + "bam: ".toUpperCase + skillName.charAt(0).toUpperCase );
+        console.log("* BAM: " + skillName);
     } else {
-        console.log("* " + skillName.charAt(0).toUpperCase );
+        console.log("* " + skillName);
     }
 };
 
